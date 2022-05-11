@@ -8,16 +8,27 @@
   font-size: 0.65em;
 }
 
-.navbar-header{
+.navbar-header {
   flex-basis: 20%;
 }
 
 .navbar-summary {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: flex-end;
   flex-basis: 20%;
 }
 
+.navbar-summary * {
+  margin: 0 0.3em;
+}
+
+.navbar-button {
+  height: fit-content;
+  font-size: 0.7em;
+}
+
 .site-logo {
-  size: 1em;
+  width: 1.7em;
+  height: 1.7em;
 }
