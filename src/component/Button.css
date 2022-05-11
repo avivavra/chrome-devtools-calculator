@@ -21,7 +21,16 @@
   margin-right: 0;
 }
 
+.component-button:hover button {
+  background-color: #cfcfcf;
+  cursor: pointer;
+}
+
 .component-button.orange button {
   background-color: #f5923e;
   color: white;
+}
+
+.component-button.orange:hover button {
+  background-color: #e38535;
 }
