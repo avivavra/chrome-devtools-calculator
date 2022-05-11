@@ -26,10 +26,33 @@
 .navbar-button {
   height: fit-content;
   font-size: 0.7em;
-  box-shadow: #8d8d8d -3px 3px 7px;
 }
 
 .site-logo {
   width: 1.7em;
   height: 1.7em;
+}
+
+.navbar-button {
+  align-items: center;
+  background-image: linear-gradient(#464d55, #25292e);
+  border-radius: 8px;
+  border-width: 0;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .1),0 3px 6px rgba(0, 0, 0, .05);
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  outline: none;
+  padding: 0.6em 1.4em;
+}
+
+.navbar-button:hover {
+  box-shadow: rgba(0, 1, 0, .2) 0 2px 8px;
+  opacity: .85;
+}
+
+.button-84:focus {
+  box-shadow: rgba(0, 0, 0, .5) 0 0 0 3px;
 }
