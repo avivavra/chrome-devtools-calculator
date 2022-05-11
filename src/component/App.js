@@ -1,8 +1,9 @@
 import React from "react";
 import Calculator from "./Calculator";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 import "./App.css";
-import Navbar from "./Navbar";
 
 export default class App extends React.Component {
     render() {
@@ -10,6 +11,7 @@ export default class App extends React.Component {
             <div className="app">
                 <Navbar />
                 <Calculator />
+                <Footer />
             </div>
         );
     }
