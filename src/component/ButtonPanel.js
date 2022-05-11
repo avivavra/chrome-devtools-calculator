@@ -1,6 +1,6 @@
-import Button from "./Button";
 import React from "react";
 import PropTypes from "prop-types";
+import Button from "./Button";
 
 import "./ButtonPanel.css";
 
@@ -15,7 +15,7 @@ export default class ButtonPanel extends React.Component {
 
   render() {
     return (
-      <div className="component-button-panel">
+      <div className="button-panel">
         <div>
           <Button name="AC" clickHandler={this.handleClick} />
           <Button name="+/-" clickHandler={this.handleClick} />
