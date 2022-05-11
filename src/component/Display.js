@@ -10,7 +10,7 @@ export default class Display extends React.Component {
 
   render() {
     return (
-      <div className="display-area">
+      <div className="calculator-display">
         <div>{this.props.value}</div>
       </div>
     );

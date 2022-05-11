@@ -1,14 +1,14 @@
-.component-button {
+.caculator-button {
   display: inline-flex;
   width: 25%;
   flex: 1 0 auto;
 }
 
-.component-button.wide {
+.caculator-button.wide {
   width: 50%;
 }
 
-.component-button button {
+.caculator-button button {
   background-color: #e0e0e0;
   border: 0;
   font-size: 1.5rem;
@@ -17,20 +17,20 @@
   padding: 0;
 }
 
-.component-button:last-child button {
+.caculator-button:last-child button {
   margin-right: 0;
 }
 
-.component-button:hover button {
+.caculator-button:hover button {
   background-color: #cfcfcf;
   cursor: pointer;
 }
 
-.component-button.orange button {
+.caculator-button.orange button {
   background-color: #f5923e;
   color: white;
 }
 
-.component-button.orange:hover button {
+.caculator-button.orange:hover button {
   background-color: #e38535;
 }
