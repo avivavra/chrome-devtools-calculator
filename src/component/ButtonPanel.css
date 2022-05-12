@@ -7,8 +7,7 @@
 }
 
 .button-panel > div {
-  width: 100%;
   margin-bottom: 1px;
-  flex: 1 0 auto;
+  flex: 1 0 25%;
   display: flex;
 }
