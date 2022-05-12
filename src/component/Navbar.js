@@ -8,7 +8,7 @@ export default class Navbar extends React.Component {
             <div className="navbar">
                 <div className="navbar-header">
                     <img className="site-logo" src="favicon.ico" alt="Site Logo" />
-                    <div>Calculator</div>
+                    <div className="site-name">Calculator</div>
                 </div>
                 <div className="navbar-summary">
                     <button className="navbar-button">History</button>
