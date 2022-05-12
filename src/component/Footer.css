@@ -1,5 +1,6 @@
 .footer {
   display: flex;
+  justify-content: space-between;
   height: 1.5em;
   padding: 0.5em;
   background-color: #fff0ad;
