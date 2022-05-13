@@ -1,12 +1,12 @@
-.caculator-button {
+.calculator-button {
   display: inline-flex;
 }
 
-.caculator-button.wide {
+.calculator-button.wide {
   flex-basis: 50%;
 }
 
-.caculator-button button {
+.calculator-button button {
   background-color: #e0e0e0;
   border: 0;
   font-size: 1.5rem;
@@ -15,16 +15,16 @@
   padding: 0;
 }
 
-.caculator-button:hover button {
+.calculator-button:hover button {
   background-color: #cfcfcf;
   cursor: pointer;
 }
 
-.caculator-button.orange button {
+.calculator-button.orange button {
   background-color: #f5923e;
   color: white;
 }
 
-.caculator-button.orange:hover button {
+.calculator-button.orange:hover button {
   background-color: #e38535;
 }
